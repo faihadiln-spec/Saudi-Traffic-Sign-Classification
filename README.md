@@ -11,7 +11,7 @@ A computer vision project that trains and compares **four vision transformer arc
 All models are loaded with pretrained ImageNet weights via the `timm` library, with their classification heads replaced for 24-class output.
 
 ## Dataset
-- **Source:** [Roboflow — Saudi Traffic Sign Dataset](https://app.roboflow.com/hayas-workspace-vivrw/saudi-traffic-sign-dataset/2)
+- **Source:** [Roboflow — Saudi Traffic Sign Dataset](https://app.roboflow.com/hayas-workspace-vivrw/saudi-traffic-sign-dataset)
 - **Classes:** 24 traffic sign categories
 - **Splits:** Train / Validation / Test
 - **Preprocessing:** Auto-Orient, Resized to 224×224, normalized with ImageNet mean and std
